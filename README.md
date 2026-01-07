@@ -1,8 +1,8 @@
 HR Attendance Analytics Dashboard
 
 Project Overview
-The HR Attendance Analytics project is a data analytics and visualization solution designed to help Human Resources teams monitor, analyze, and optimize employee attendance patterns. The project leverages historical attendance data to uncover insights related to presence trends, leave behavior, and work-from-home utilization, enabling data-driven workforce planning and policy decisions.
-This project demonstrates practical application of data preprocessing, analytics, and interactive dashboard development using real-world HR data.
+The HR Attendance Analytics Dashboard is a data analytics and visualization project designed to help Human Resources teams monitor, analyze, and optimize employee attendance patterns. The project leverages historical attendance data to uncover insights related to presence trends, leave behavior, and work-from-home (WFH) utilization, enabling data-driven workforce planning and policy decisions.
+This project demonstrates the practical application of data preprocessing, analytics, and interactive dashboard development using real-world HR data.
 
 Objectives
 Analyze employee attendance trends over time
@@ -14,6 +14,7 @@ Dataset Description
 Source: Internal HR attendance records
 Time Period: 2022–2023
 Granularity: Employee-level daily attendance
+
 Key Attributes:
 Employee ID / Name
 Date
@@ -37,7 +38,7 @@ Day-wise Attendance Patterns
 Dashboard Features
 Interactive slicers for date, employee, and attendance type
 Monthly and weekly attendance trend analysis
-Comparative analysis of WFH vs Office Presence
+Comparative analysis of WFH vs office presence
 Clean, business-focused visual design for HR stakeholders
 Drill-down capability for detailed employee-level insights
 
@@ -58,7 +59,7 @@ Refresh the data model
 Use slicers and visuals to explore attendance insights
 
 Business Value
-This project helps HR teams:
+This project helps HR teams to:
 Monitor workforce engagement and availability
 Support hybrid and remote work policy evaluation
 Improve attendance transparency and reporting
