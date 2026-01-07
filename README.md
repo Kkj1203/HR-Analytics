@@ -1,76 +1,128 @@
-HR Attendance Analytics Dashboard
+# HR Attendance Analytics Dashboard
 
-Project Overview
-The HR Attendance Analytics Dashboard is a data analytics and visualization project designed to help Human Resources teams monitor, analyze, and optimize employee attendance patterns. The project leverages historical attendance data to uncover insights related to presence trends, leave behavior, and work-from-home (WFH) utilization, enabling data-driven workforce planning and policy decisions.
-This project demonstrates the practical application of data preprocessing, analytics, and interactive dashboard development using real-world HR data.
+This project implements a **data analytics and business intelligence solution** for analyzing employee attendance using **Power BI**.  
+It helps Human Resources teams monitor presence, leave, and work-from-home (WFH) patterns through interactive dashboards and KPI-driven insights, suitable for corporate HR analytics, reporting, and decision-support use cases.
 
-Objectives
-Analyze employee attendance trends over time
-Identify patterns in presence, leave, and work-from-home (WFH) behavior
-Provide HR stakeholders with an interactive and intuitive dashboard
-Enable better decision-making for workforce management and attendance policies
+---
 
-Dataset Description
-Source: Internal HR attendance records
-Time Period: 2022–2023
-Granularity: Employee-level daily attendance
+## Project Overview
 
-Key Attributes:
-Employee ID / Name
-Date
-Attendance Status (Present, Leave, WFH, etc.)
-Department / Team (if applicable)
+Employee attendance patterns have a direct impact on workforce planning, productivity, and HR policy effectiveness.  
+This system uses **data analytics and visualization techniques** to transform raw HR attendance data into actionable insights for HR stakeholders.
 
-Tools & Technologies Used
-Power BI – Interactive dashboard creation and data visualization
-Microsoft Excel – Data cleaning, preprocessing, and validation
-DAX (Data Analysis Expressions) – Measures and calculated metrics
-Data Analytics Concepts – Trend analysis, aggregation, KPI reporting
+---
 
-Key Metrics & KPIs
-Overall Attendance Percentage
-Work From Home (WFH) Percentage
-Leave Percentage
-Monthly Attendance Trends
-Employee-wise Attendance Breakdown
-Day-wise Attendance Patterns
+### Key Features
 
-Dashboard Features
-Interactive slicers for date, employee, and attendance type
-Monthly and weekly attendance trend analysis
-Comparative analysis of WFH vs office presence
-Clean, business-focused visual design for HR stakeholders
-Drill-down capability for detailed employee-level insights
+- Employee-level attendance analytics  
+- Presence, leave, and work-from-home (WFH) trend analysis  
+- Interactive Power BI dashboards with slicers  
+- Monthly and yearly attendance trend tracking  
+- KPI-driven HR reporting and visualization  
 
-Insights Generated
-Identification of peak leave and WFH periods
-Trends indicating changes in employee work patterns
-Attendance consistency across employees and months
-Data-backed support for HR policy planning
+---
 
-Project Files
-Attendance-Sheet-2022-2023.xlsx – Raw attendance dataset
-HR-Analytics-Atliq.pbix – Power BI dashboard file
+## Analytics & Approach
 
-How to Use the Project
-Open the Power BI (.pbix) file using Power BI Desktop
-Ensure the Excel dataset is in the same directory or update the data source path if required
-Refresh the data model
-Use slicers and visuals to explore attendance insights
+- **Analytics Type**: Descriptive and diagnostic analytics  
+- **Data Granularity**: Employee-level daily attendance  
+- **Focus Areas**:
+  - Attendance consistency
+  - Leave and absenteeism patterns
+  - Remote work utilization
+  - Time-based trend analysis  
 
-Business Value
-This project helps HR teams to:
-Monitor workforce engagement and availability
-Support hybrid and remote work policy evaluation
-Improve attendance transparency and reporting
-Make informed decisions using analytics rather than intuition
+---
 
-Future Enhancements
-Integration with live HR databases
-Department-level performance analysis
-Predictive attendance and absenteeism modeling
-Automation of data refresh using Power BI Service
+## Dataset Description
 
-Author
-Keerthikrishna Jog
-Computer Science Engineering | Data Analytics & AI Enthusiast
+- **Source**: Internal HR attendance records  
+- **Time Period**: 2022–2023  
+- **Granularity**: Daily attendance per employee  
+
+### Key Attributes
+
+- Employee ID / Name  
+- Date  
+- Attendance Status (Present, Leave, WFH, etc.)  
+- Department / Team (if applicable)  
+
+---
+
+## Tools & Technologies Used
+
+- **Power BI** – Interactive dashboard creation and data visualization  
+- **Microsoft Excel** – Data cleaning, preprocessing, and validation  
+- **DAX (Data Analysis Expressions)** – Measures and calculated KPIs  
+- **Data Analytics Concepts** – Trend analysis, aggregation, KPI reporting  
+
+---
+
+## Key Metrics & KPIs
+
+- Overall Attendance Percentage  
+- Work From Home (WFH) Percentage  
+- Leave Percentage  
+- Monthly Attendance Trends  
+- Employee-wise Attendance Breakdown  
+- Day-wise Attendance Patterns  
+
+---
+
+## Dashboard Features
+
+- Interactive slicers for date, employee, and attendance type  
+- Monthly and weekly attendance trend analysis  
+- Comparative analysis of WFH vs office presence  
+- Drill-down capability for employee-level insights  
+- Clean, business-focused dashboard design  
+
+---
+
+## Insights Generated
+
+- Identification of peak leave and WFH periods  
+- Detection of attendance consistency and variability  
+- Analysis of changing employee work patterns  
+- Data-backed inputs for HR policy planning  
+
+---
+
+## Project Files
+
+- `Attendance-Sheet-2022-2023.xlsx` – Raw attendance dataset  
+- `HR-Analytics-Atliq.pbix` – Power BI dashboard file  
+
+---
+
+## How to Run the Project
+
+1. Open the **Power BI (.pbix)** file using Power BI Desktop  
+2. Ensure the Excel dataset is in the same directory or update the data source path  
+3. Refresh the data model  
+4. Use slicers and visuals to explore attendance insights  
+
+---
+
+## Business Applications
+
+- Workforce planning and capacity analysis  
+- Hybrid and remote work policy evaluation  
+- Attendance transparency and reporting  
+- HR decision support using data analytics  
+
+---
+
+## Future Improvements
+
+- Integration with live HR databases  
+- Department-level and role-based analysis  
+- Predictive absenteeism and attendance modeling  
+- Automated data refresh via Power BI Service  
+
+---
+
+## Author
+
+**Keerthikrishna Jog**  
+Computer Science Engineering | Data Analytics & AI Enthusiast  
